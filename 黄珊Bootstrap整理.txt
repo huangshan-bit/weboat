@@ -1,0 +1,265 @@
+                                                                                                                                            Bootstrap整理
+                                          
+1:栅格系统
+cal-xs
+cal-sm 
+cal-md 
+cal-lg 
+
+2:边框
+添加边框
+border:默认边框
+border-top
+border-right
+border-bottom
+border-left
+
+删除边框
+border-0
+border-top-0
+border-right-0
+border-bottom-0
+border-left-0
+
+边框颜色
+border-primary
+border-secondary
+border-success
+border-danger
+border-warning
+border-info
+border-light
+border-dark
+border-white
+
+边框圆角
+rounded:是4个角都是圆角
+rounded-top:只有上面两个角是圆角
+rounded-right:右边两个角变圆
+rounded-bottom:下面两个角圆
+rounded-left:左边两个角圆
+rounded-circle:圆形
+rounded-pill:椭圆形
+rounded-0:正方形
+
+3:清除浮动
+为父元素添加一个.clearfix会容易浮动
+float-left:向左浮动
+float-right:向右浮动
+
+4:字体
+.text-primary:重要
+.text-muted:柔和
+.text-success:成功
+.text-info:提示
+.text-warning:警告
+.text-danger:危险
+.text-secondary:副标题
+.text-dark:深灰色文字
+.text-light:浅灰色
+.text-white:白色
+
+5:背景颜色
+bg-primary
+bg-secondary
+bg-success
+bg-danger
+bg-warning
+bg-info
+bg-light
+bg-dark
+bg-white
+ 
+6:display显示属性
+display显示
+.d-print-none
+.d-print-inline
+.d-print-inline-block
+.d-print-block
+.d-print-table
+.d-print-table-row
+.d-print-table-cell
+.d-print-flex
+.d-print-inline-flex
+
+7:填充
+.flex-fill
+
+8:内嵌
+嵌入元素样式
+包含<iframe>, <embed>, <video>, and <object>等元素样式
+embed-responsive:外部盒子
+embed-responsive-21by9
+embed-responsive-item
+
+9:flex布局
+ 弹性布局
+.d-flex
+.d-inline-flex
+.d-sm-flex
+.d-sm-inline-flex
+.d-md-flex
+.d-md-inline-flex
+.d-lg-flex
+.d-lg-inline-flex
+.d-xl-flex
+.d-xl-inline-flex
+
+10:浮动
+每个float存在响应性
+在大小为sm（较小）或更宽的视口上浮动
+在视口大小为md（中）或更宽的视口上浮动
+在大小为lg（大）或更宽的视口中浮动
+在xl（超大）或更大尺寸的视口上浮动
+支持的所有类
+.float-left
+.float-right
+.float-none
+.float-sm-left
+.float-sm-right
+.float-sm-none
+.float-md-left
+.float-md-right
+.float-md-none
+.float-lg-left
+.float-lg-right
+.float-lg-none
+.float-xl-left
+.float-xl-right
+.float-xl-none
+
+11:图片替换文字
+text-hide:使用.text-hide类替换元素的文本
+<h1 class="text-hide" style="background-image: url('...'); ">Bootstrap</h1>
+
+12:溢出
+overflow-auto:在具有设计的宽度和高度上可以添加滚定条
+overflow-hidden:在具有设计的宽度和高度上使用的示例
+
+13:定位
+position-static
+position-relative
+position-absolute
+position-fixed
+position-sticky
+固定定位
+fixed-top:固定顶
+fixed-bottom:固定底
+sticky-top:使用比较少
+
+14:按钮
+按钮
+btn-primary :主要按钮
+btn-secondary :次要按钮
+btn-success :成功按钮
+btn-info :信息按钮
+btn-danger :危险按钮
+btn-outline-primary :按钮边框
+btn-xs btn-sm btn-lg :小大号按钮
+btn-block :块级按钮
+active :可用
+disabled :禁用
+按钮组
+btn-group :按钮组
+btn-group-lg|sm|xs :控制按钮组大小
+btn-group-vertical :垂直按钮组
+
+15:列表组
+list-group :列表组ul
+list-group-item :列表li
+列表的背景色
+list-group-item-action
+list-group-item-success
+list-group-item-secondary
+list-group-item-info
+list-group-item-warning
+list-group-item-danger
+list-group-item-dark
+list-group-item-light
+
+淡入淡出效果
+.tab
+.tab('show'):显示
+
+大事件
+hide.bs.tab:在当前活动标签上
+show.bs.tab:在待显示的标签上
+hidden.bs.tab:在上一个活动标签上,与活动相同hide.bs.tab
+shown.bs.tab:在新激活的刚刚显示的标签上，该标签与该show.bs.tab活动的标签相同
+
+16:表单
+form-inline
+form-horizontal
+form-group
+input-group-addon
+form-control
+sr-only
+
+表单的尺寸
+input-lg
+input-sm
+
+多选和单选
+checkbox :复选框
+checkbox-inline :内联多选
+radio :单选框
+radio-inline :内联单选
+disabled :不可点击
+
+下拉列表
+select
+form-control
+
+校验状态 (都可以配合.form-group使用)
+has-success
+has-warning
+has-error
+
+17: 信息提示框
+alert 类  背景色
+alert-success
+alert-info
+alert-warning
+alert-danger
+alert-primary
+alert-secondary
+alert-light
+alert-dark 类来实现暗黑提示框
+
+18:三角型符号
+caret :css实现向下小三角
+
+19:尺寸:size
+w-25
+w-50
+w-75
+w-100
+
+20:文本
+文本对齐方式
+text-left
+text-center
+text-right
+text-sm-left
+text-md-left
+text-lg-left
+text-xl-left
+
+文本转换:必须浏览器都支持
+text-lowercase:转为小写的文本
+text-uppercase:转为大写的文本
+text-capitalize:转为首字母大写的文本
+
+字体粗细和斜体
+font-weight-bold:字体加粗
+font-weight-normal:正常字体
+font-weight-light:字体变细
+font-italic:斜体
+
+21:垂直对齐
+align-baseline
+align-top
+align-middle
+align-bottom
+align-text-top
+align-text-bottom
